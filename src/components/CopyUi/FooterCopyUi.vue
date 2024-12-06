@@ -113,7 +113,7 @@ export default defineComponent({
     display: flex;
     background: #f4f2f2;
     padding: 12px 16px;
-    border-radius: 18px;
+    border-radius: 10px;
     width: 350px;
     margin-bottom: 8px;
     align-items: center;
