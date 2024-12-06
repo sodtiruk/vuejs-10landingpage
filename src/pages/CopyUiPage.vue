@@ -7,6 +7,7 @@
         <CarouselSection />
         <SectionTemplate />
         <CardSection />
+        <FooterCopyUi />
 
 
     </div>
@@ -18,6 +19,7 @@ import HeaderCard from '@/components/CopyUi/HeaderCard.vue';
 import CarouselSection from '@/components/CopyUi/CarouselSection.vue';
 import SectionTemplate from '@/components/CopyUi/SectionTemplate.vue';
 import CardSection from '@/components/CopyUi/CardSection.vue';
+import FooterCopyUi from '@/components/CopyUi/FooterCopyUi.vue';
 
 import { defineComponent } from 'vue';
 
@@ -29,6 +31,7 @@ export default defineComponent ({
         CarouselSection,
         SectionTemplate,
         CardSection,
+        FooterCopyUi,
     }
 })
 </script>
