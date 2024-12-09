@@ -28,6 +28,7 @@ import CopyUiPage from "./pages/CopyUiPage.vue";
   <button @click="decreaseNumber">Remove</button> -->
   
   <CopyUiPage />
+  
 
 </template>
 
