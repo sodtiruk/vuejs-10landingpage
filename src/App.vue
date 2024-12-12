@@ -1,6 +1,7 @@
 <script setup>
 // import { ref } from "vue";
 import CopyUiPage from "./pages/CopyUiPage.vue";
+import ResponsiveLearn from "./pages/ResponsiveLearn.vue";
 
 // const count = ref(0);
 
@@ -28,7 +29,7 @@ import CopyUiPage from "./pages/CopyUiPage.vue";
   <button @click="decreaseNumber">Remove</button> -->
   
   <CopyUiPage />
-  
+  <ResponsiveLearn />
 
 </template>
 
