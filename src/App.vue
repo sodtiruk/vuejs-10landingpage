@@ -28,7 +28,7 @@ import ResponsiveLearn from "./pages/ResponsiveLearn.vue";
   <button @click="increseNumber">Add</button>
   <button @click="decreaseNumber">Remove</button> -->
   
-  <CopyUiPage />
+  <!-- <CopyUiPage /> -->
   <ResponsiveLearn />
 
 </template>
