@@ -348,5 +348,21 @@ nav {
     margin-top: 5rem;
 }
 
+@media screen and (max-width: 900px) {
+
+    nav {
+        height: 72px;
+    }
+
+    .content .left {
+        display: none;
+    }
+
+
+
+}
+
+
+
 
 </style>
