@@ -8,7 +8,17 @@
                 </div>
                 <div class="middle">
                     <ul>
-                        <li><a href="">Try it</a></li>
+                        <li>
+                            <div class="dropdown">
+                                <!-- Try it -->
+                                <a href="">Try it</a>
+                                <div class="dropdown-content">
+                                    <p>Hello world</p>
+                                    <p>world 2</p>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- <li><a href="">Try it</a></li> -->
                         <li><a href="">How it works</a></li>
                         <li><a href="">use cases</a></li>
                         <li><a href="">Pricing</a></li>
@@ -23,7 +33,7 @@
        </div> 
     </nav>
     <div class="test">
-        xxLorem ipsum dolor sit amet consectetur adipisicing elit. In, pariatur?
+        xxLorem ipsum dolor sit amet consectetur adipisicing elit. In, pariatur? asdfadsfasdfasdfsadf
     </div>
     <div>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. In, pariatur?
@@ -357,10 +367,34 @@ nav {
     .content .left {
         display: none;
     }
-
-
-
 }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute; 
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: white;
+    z-index: 1;
+}
+
+.dropdown .dropdown-content p {
+    padding: 14px 18px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+
+
 
 
 
